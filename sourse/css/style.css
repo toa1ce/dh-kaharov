@@ -1,0 +1,663 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100vh;
+}
+.main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  padding: 0;
+}
+.main nav ul li {
+  margin: 0 20px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main nav ul li:first-child {
+  margin-left: 0;
+}
+.main nav ul li:last-child {
+  margin-right: 40px;
+}
+.main nav ul li a {
+  color: #fff;
+}
+.main nav ul li a:hover {
+  color: #5f9502;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.main__text {
+  color: #fff;
+  text-align: center;
+  padding-top: 20%;
+}
+.main__title {
+  font-family: "Geologica";
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main__subtitle {
+  font-family: "Open Sans";
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.main__button {
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #5f9502;
+  border: 2px solid #609202;
+  margin-bottom: 100px;
+}
+.main__button a {
+  color: #fff;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main__button:hover {
+  background: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.logo {
+  padding-right: 40px;
+}
+.logo img {
+  width: 200px;
+}
+
+.about-us {
+  padding: 70px 0;
+  background: #6d883b;
+  color: #fff;
+}
+.about-us__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.about-us__text p {
+  max-width: 600px;
+  font-family: "Open Sans";
+  font-size: 21px;
+  line-height: 170%;
+}
+.about-us__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.about-us__numbers_card {
+  margin: 0 60px;
+}
+.about-us__numbers_card p {
+  font-family: "Open Sans";
+  font-size: 22px;
+  margin-top: 0;
+}
+.about-us__numbers_card h2 {
+  font-family: "Geologica";
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.services {
+  padding: 30px 0 50px 0;
+}
+.services .title h2 {
+  color: #6d883b;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.services__card {
+  margin: 20px auto;
+}
+.services__card_content {
+  max-width: 350px;
+  height: 520px;
+  border-radius: 15px;
+  background-color: rgba(109, 136, 59, 0.768627451);
+}
+.services__card_content:hover .services__card_img img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.services__card_img {
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+.services__card_img img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.services__card_text {
+  padding: 15px;
+  color: #fff;
+}
+.services__card_title {
+  font-family: "Geologica";
+  line-height: 100%;
+}
+.services__card_paragraph {
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+.services__card_btn {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: #5f9502;
+  font-weight: 600;
+  border: none;
+}
+.services__card_btn:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-family: "Geologica italic";
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.swiper {
+  width: 80%;
+  border-radius: 20px;
+  margin: 100px 0;
+}
+
+.reviews {
+  padding: 20px 0 50px 0;
+}
+.reviews .title h2 {
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  border-radius: 20px;
+}
+.swiper-slide img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #5f9502 !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  color: #5f9502;
+}
+
+.main-nav {
+  position: relative;
+  z-index: 100;
+}
+
+.secondary-nav.active {
+  opacity: 1;
+}
+
+.secondary-nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondary-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondary-nav ul li {
+  margin-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.secondary-nav {
+  display: none;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.secondary-nav-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.4156862745);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+  z-index: 999;
+}
+
+.secondary-nav .logo img {
+  width: 60px;
+}
+
+.menu-burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.burger-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #6d883b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.menu-items.hidden {
+  opacity: 0;
+}
+
+.menu-items.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu-items a {
+  color: #fff;
+  font-size: 22px;
+  line-height: 200%;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+}
+
+.menu-close {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Дополнительные стили для кнопки выхода */
+.menu-close:hover {
+  color: #ff0000;
+}
+
+.menu-items {
+  /* остальные стили остаются без изменений */
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.menu-items .secondary-nav-logo {
+  max-width: 70px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.menu-items.show {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.menu-close {
+  /* остальные стили остаются без изменений */
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 100%;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.menu-close:hover {
+  color: #ff0000;
+}
+
+.secondary-nav .logo {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-right: auto;
+}
+
+.menu-burger {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: auto;
+}
+
+.sm-icons img {
+  width: 40px;
+  margin: 15px 5px;
+}
+
+.specialists {
+  background: #6d883b;
+  padding: 50px 0;
+}
+.specialists__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.specialists__card {
+  margin: 0 auto;
+  text-align: center;
+}
+.specialists__card_img {
+  max-width: 300px;
+  overflow: hidden;
+}
+.specialists__card_img img {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.specialists__card_img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.specialists__card_text {
+  margin-top: 20px;
+  color: #fff;
+}
+.specialists__card_text h3 {
+  font-family: "Geologica italic";
+  line-height: 120%;
+  margin-bottom: 0;
+}
+.specialists__card_text p {
+  font-family: "Open Sans italic";
+  font-size: 18px;
+}
+
+.subtitle {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+.subtitle p {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 19px;
+  max-width: 600px;
+}
+
+.education {
+  background: #6d883b;
+  padding: 100px 0;
+}
+.education__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.education__left-side {
+  margin-right: 70px;
+  max-width: 600px;
+}
+.education__left-side img {
+  width: 100%;
+}
+.education__right-side {
+  color: #fff;
+  text-align: center;
+}
+.education__right-side h2 {
+  font-family: "Geologica";
+  font-size: 38px;
+}
+.education__right-side p {
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+.education__right-side button {
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background: #fff;
+  color: #5f9502;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.education__right-side button:hover {
+  background: #6d883b;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 30px;
+}
+.footer .title h2 {
+  color: #6d883b;
+  margin-bottom: 60px;
+}
+
+.footer-content {
+  text-align: center;
+  font-family: "Open Sans";
+  padding-bottom: 30px;
+}
+.footer-content a {
+  color: black;
+  font-weight: 600;
+  font-size: 26px;
+}
+.footer-content P {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.work-time p {
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main {
+    height: 80vh;
+  }
+  .main nav ul li {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .logo {
+    padding-right: 20px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .education__right-side h2 {
+    font-size: 26px;
+  }
+  .education__left-side {
+    margin-right: 30px;
+    max-width: 400px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main {
+    height: 100vh;
+  }
+  .main nav ul li {
+    display: none;
+  }
+  .main__text {
+    padding-top: 40%;
+  }
+  .logo {
+    padding: 0;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .about-us {
+    padding: 50px 0;
+  }
+  .about-us .about-us__text p {
+    font-size: 19px;
+  }
+  .about-us__numbers {
+    display: block;
+  }
+  .about-us__numbers_card {
+    margin: 50px 0;
+  }
+  .swiper {
+    width: 100%;
+  }
+  .education__content {
+    display: block;
+    text-align: center;
+  }
+  .education__left-side {
+    width: 100%;
+  }
+  .education {
+    padding: 50px 0 100px 0;
+  }
+  .education__right-side h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
