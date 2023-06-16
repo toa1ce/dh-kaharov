@@ -21,12 +21,12 @@
 }
 
 .main {
-  background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(/img/main-bg.jpg);
+  background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/main-bg.jpg);
   background-size: cover;
   background-position: center;
 }
 .reviews {
-  background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(/img/main-bg.jpg);
+  background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/main-bg.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
