@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,19 +18,19 @@
         <div id="preloader">
             <img src="img/preloader.jpg" alt="Прелоадер">
         </div>  
-        <header class="main">
+        <header class="main" id="main">
             <div class="container">
                 <nav class="main-nav">
                     <ul>
-                      <li><a href="index.html">Главная</a></li>
-                      <li><a href="">Услуги</a></li>
-                      <li><a href="">Специалисты</a></li>
+                      <li><a href="#main">Главная</a></li>
+                      <li><a href="#services">Услуги</a></li>
+                      <li><a href="#specialists">Специалисты</a></li>
                     </ul>
                     <a href="index.html" class="logo"><img src="./img/logo.png" alt="logo"></a>
                     <ul>
-                      <li><a href="">Отзывы</a></li>
-                      <li><a href="">О нас</a></li>
-                      <li><a href="">Обучение</a></li>
+                      <li><a href="#reviews">Отзывы</a></li>
+                      <li><a href="#about-us">О нас</a></li>
+                      <li><a href="#education">Обучение</a></li>
                     </ul>
                 </nav>
                 <nav class="secondary-nav hidden">
@@ -44,12 +44,12 @@
                         <div class="menu-items">
                             <div class="menu-close">x</div>
                             <img class="secondary-nav-logo" src="./img/icon.png" alt="logo">
-                            <div><a href="index.html">Главная</a></div>
-                            <div><a href="">Услуги</a></div>
-                            <div><a href="">Специалисты</a></div>
-                            <div><a href="">Отзывы</a></div>
-                            <div><a href="">О нас</a></div>
-                            <div><a href="">Обучение</a></div>
+                            <div><a href="#main">Главная</a></div>
+                            <div><a href="#services">Услуги</a></div>
+                            <div><a href="#specialists">Специалисты</a></div>
+                            <div><a href="#reviews">Отзывы</a></div>
+                            <div><a href="#about-us">О нас</a></div>
+                            <div><a href="#education">Обучение</a></div>
                             <div class="sm-icons">
                                 <a href=""><img src="./img/icons8-instagram-50.png" alt=""></a>
                                 <a href=""><img src="./img/icons8-whatsapp-50.png" alt=""></a>
@@ -66,7 +66,7 @@
                 </section>
             </div>
         </header>
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="container">
                 <div class="about-us__text">
                     <p>Мы - специализированный центр здоровья спины, мышц и связок. Помогаем без лекарств, используя ручные техники. Результат и ваше благополучие - наш приоритет.</p>
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="title">
                     <h2>Услуги</h2>
@@ -156,11 +156,11 @@
                     <div class="services__card">
                         <div class="services__card_content">
                             <div class="services__card_img">
-                                <img src="./img/main-bg.jpg" alt="">
+                                <img src="./img/services-img6.jpg" alt="">
                             </div>
                             <div class="services__card_text">
-                                <h2 class="services__card_title">Массаж</h2>
-                                <p class="services__card_paragraph">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+                                <h2 class="services__card_title">Массаж ТуйНа</h2>
+                                <p class="services__card_paragraph">массаж Туйна восстанавливает кровообращение, улучшает обмен веществ, стимулирует движение лимфы, благодаря чему выводятся шлаки и токсины.</p>
                                 <button class="services__card_btn">Подробнее</button>
                             </div>    
                         </div>
@@ -168,7 +168,7 @@
                 </div>    
             </div>
         </section>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <div class="container">
                 <div class="title">
                     <h2>Отзывы</h2>
@@ -201,6 +201,21 @@
                       <div class="swiper-slide">
                         <img src="./img/IMG-20230613-WA0015.jpg" alt="">
                       </div>
+                      <div class="swiper-slide">
+                        <img src="./img/SoxYUCJPw2q8-thBI677kItMFj_Q9DMhbg7UfVOS_c4=_plaintext_638226246160205048.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/IMG-20230618-WA0006.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/IMG-20230618-WA0005.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/IMG-20230618-WA0007.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/IMG-20230618-WA0008.jpg" alt="">
+                      </div>
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
@@ -211,7 +226,7 @@
                 </div>
             </div>
         </section>
-        <section class="specialists">
+        <section class="specialists" id="specialists">
             <div class="container">
                 <div class="title">
                     <h2>Наши специалисты</h2>
@@ -222,44 +237,44 @@
                 <div class="specialists__content">
                     <div class="specialists__card">
                         <div class="specialists__card_img">
-                            <a href=""><img src="./img/specialist1.jpg" alt=""></a>
+                            <a href="./html/specialists/kaharov-muhamedzhan.html"><img src="./img/specialist3.JPEG" alt=""></a>
                         </div>
                         <div class="specialists__card_text">
-                            <h3>Gizelle Doe</h3>
-                            <p>Therapist</p>
+                            <h3>Кахаров Мухамеджан</h3>
+                            <p>Массажист</p>
                         </div>
                     </div>
                     <div class="specialists__card">
                         <div class="specialists__card_img">
-                            <a href=""><img src="./img/specialist1.jpg" alt=""></a>
+                            <a href="./html/specialists/alzhanova-anara.html"><img src="./img/specialist1.png" alt=""></a>
                         </div>
                         <div class="specialists__card_text">
-                            <h3>Gizelle Doe</h3>
-                            <p>Therapist</p>
+                            <h3>Альжанова Анара</h3>
+                            <p>Массажист</p>
                         </div>
                     </div>
                     <div class="specialists__card">
                         <div class="specialists__card_img">
-                            <a href=""><img src="./img/specialist1.jpg" alt=""></a>
+                            <a href="./html/specialists/nurshanov-aidyn.html"><img src="./img/specialist2.jpg" alt=""></a>
                         </div>
                         <div class="specialists__card_text">
-                            <h3>Gizelle Doe</h3>
-                            <p>Therapist</p>
+                            <h3>Нуршанов Айдын</h3>
+                            <p>Массажист</p>
                         </div>
                     </div>
                     <div class="specialists__card">
                         <div class="specialists__card_img">
-                            <a href=""><img src="./img/specialist1.jpg" alt=""></a>
+                            <a href="./html/specialists/dashkova-sofiya.html"><img src="./img/specialist4.jpg" alt=""></a>
                         </div>
                         <div class="specialists__card_text">
-                            <h3>Gizelle Doe</h3>
-                            <p>Therapist</p>
+                            <h3>Дашкова Софья</h3>
+                            <p>Массажист</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section class="education" id="education">
             <div class="container">
                 <div class="education__content">
                     <div class="education__left-side">
@@ -273,7 +288,7 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="container">
                 <div class="title">
                     <h2>Контакты</h2>
@@ -282,8 +297,7 @@
                     <a href="tel: +77473337428">+7(747)333-74-28</a>
                     <p>Алматы, Карибжанова 50в</p>
                     <div class="work-time">
-                        <p>пн-пт: 9:00-21:00</p>
-                        <p>сб-вс: 9:00-19:00</p>
+                        <p>пн-вс: 10:00-21:00</p>
                     </div>    
                     <div class="sm-icons">
                         <a href=""><img src="./img/icons8-instagram-50(2).png" alt=""></a>
