@@ -1,0 +1,76 @@
+.main {
+    background: none;
+    height: 100%;
+}
+.main nav ul li a {
+    color: #5f9502;
+}
+.about__content_img {
+    max-width: 400px;
+    margin-right: 50px;
+}
+.about__content_img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.about {
+    padding: 80px 0;
+}
+.about__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__content_text {
+    max-width: 650px;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+.about__content_text h2 {
+    font-family: Geologica;
+    color: #5f9502;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.about__content_text h3 {
+    font-family: Geologica;
+    font-size: 23px;
+    color: #5f9502;
+    line-height: 1;
+    margin-top: 0;
+}
+.about__content_text h4 {
+    font-family: Geologica;
+    font-size: 19px;
+    color: #5f9502;
+    line-height: 1;
+    margin-top: 0;
+}
+.about__content_text p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .about__content_img {
+        margin: 0 0 20px 0;
+    }
+    .about__content_text p {
+        font-size: 18px;
+    }
+    .about__content_text {
+        width: 100%;
+    }
+    .about__content_text ul {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        list-style: disc;
+    }
+}
+.about__content_text ul {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    list-style: disc;
+}
