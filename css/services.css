@@ -1,0 +1,115 @@
+.main1 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main2 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main3 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img3.jpg);
+    background-size: cover;
+   background-position: center;
+} 
+.main4 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img4.jpg);
+    background-size: cover;
+   background-position: center;
+}
+.main5 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img5.jpg);
+    background-size: cover;
+   background-position: center;
+}
+.main6 {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6727065826330532) 48%, rgba(0,0,0,0.6222864145658263) 100%), url(../img/services-img6.jpg);
+    background-size: cover;
+   background-position: center;
+}
+
+.scrolldown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+    margin-top: 20vh;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #fff;
+  	    border-bottom: 2px solid #fff;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+.about-massage {
+    background: #6d883b;
+    padding: 50px 0;
+}
+.about-massage__text {
+    color: #fff;
+}
+.about-massage__text h2 {
+    font-family: Geologica;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.about-massage__text p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+.about-massage__text ul {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    list-style: disc;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .main__title {
+        font-size: 34px;
+    }
+    .about-massage__text p, ul {
+        font-family: 'Open Sans';
+        font-size: 18px;
+    }
+}
